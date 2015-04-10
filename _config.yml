@@ -8,25 +8,25 @@
 #                                                 /____/        
 #
 # Title of your website
-title: "Feeling Responsive"
+title: "Carrollton Manor"
 
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: "A Flexible Theme for Jekyll"
+slogan: "A Severna Park, Maryland Community"
 
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: "»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette."
+description: "»Carrollton Manor.com« is the official website for the Severna Park, MD, USA community."
 
 
 # This URL is the main adresse. Don't include a slash at the end.
 #
-url: "https://phlow.github.io/feeling-responsive"
+url: "http://sadimauro.github.io"
 baseurl: ""
 
 # This is for the editing function in _/includes/improve_content.html
 # Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
+improve_content: https://github.com/sadimauro/sadimauro.github.io/edit
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash.
@@ -34,20 +34,20 @@ improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}/{{ post.image.title }}">
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}/image.jpg)
 #
-urlimg: "http://phlow.github.io/feeling-responsive/images/"
+urlimg: "http://sadimauro.github.io/images/"
 
 
-# Logo size is 600x80 pixels
+# Logo size is 600x80 pixels - this is the text logo
 logo: "logo.png"
 
 
 # Paginates all X entries
-paginate: 5
-
+#paginate: 5
+paginate: 4
 
 # Pagination path › Important for blog page in /blog/ to work
-paginate_path: "blog/page:num"
-
+#paginate_path: "blog/page:num"
+paginate_path: "page:num"
 
 # Theme works best with Kramdown (using the table of contents function)
 markdown: kramdown
