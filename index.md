@@ -5,9 +5,11 @@
 # this work, you have to use › layout: frontpage
 #
 layout: frontpage
-title: "Feeling Responsive – A Jekyll Theme Based On Foundation"
-header:
-   image_fullwidth: "header_unsplash_12.jpg"
+title: "Carrollton Manor - Severna Park, MD"
+#header:
+#   title:  Carrollton Manor
+#   image_fullwidth: "header_unsplash_12.jpg"
+#   #image_fullwidth: "header_unsplash_12.jpg"
 widget-1:
     title: "Blog & Portfolio"
     url: 'http://phlow.github.io/feeling-responsive/blog/'
