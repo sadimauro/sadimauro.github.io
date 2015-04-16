@@ -6,10 +6,11 @@
 #
 layout: frontpage
 title: "Carrollton Manor - Severna Park, MD"
-#header:
-#   title:  Carrollton Manor
-#   image_fullwidth: "header_unsplash_12.jpg"
-#   #image_fullwidth: "header_unsplash_12.jpg"
+header:
+   image: "various/sign1-crop-alternate-680x80.jpg"
+   background-color:  "#f0f0f0"
+   caption:  A Severna Park, Maryland Community
+   caption_url:  http://carrolltonmanor.com
 widget-1:
     title: "Blog & Portfolio"
     url: 'http://phlow.github.io/feeling-responsive/blog/'
