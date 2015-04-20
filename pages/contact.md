@@ -1,17 +1,21 @@
 ---
-layout: page
-title: "Contact"
-show_meta: false
-subheadline: "Wufoo-powered contact forms"
-description: "Get in touch with me? Use the contact form."
+layout: page-fullwidth
+title: Contact Us
+#subheadline: "TODO"
+description: "Contact Us"
+header:
+   image: "various/sign1-crop-alternate-680x80.jpg"
+   background-color:  "#ba8b3d"
 permalink: "/contact/"
 ---
-If you need a fabulous contact form for your website, I suggest you use [Wufoo][1]. You can use three forms for free, you get no spam and if you get more than 100 entries you have to pay.
 
-<div class="panel">
-<iframe width="100%" height="650" frameborder="0" scrolling="no" src="https://phlowmedia.wufoo.com/embed/z7x3k1/"></iframe>
-</div>
+For more information about the Community or the <a href="/cmia">CMIA</a>, contact the following folks:
 
+{% for person in site.data.board_roles %}
 
+  {% assign this_phone = site.data.people | map: person.id | map: 'phone' %}
+  {% assign this_email = site.data.people | map: person.id | map: 'email' %}
 
- [1]: http://www.wufoo.com/
+  {{ site.data.people | map: person.id | map: 'name'}} ({{ person.title }}):  {{ this_phone }} / {{ this_email }}
+  
+{% endfor %}

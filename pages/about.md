@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fullwidth
 title: About Carrollton Manor
 #subheadline: "TODO"
 description: "About the Carrollton Manor Community"

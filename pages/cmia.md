@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fullwidth
 title: Carrollton Manor Improvement Association
 #subheadline: "TODO"
 description: "Carrollton Manor Improvement Association"
