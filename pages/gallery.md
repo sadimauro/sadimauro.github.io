@@ -9,6 +9,8 @@ header:
 permalink: "/gallery/"
 ---
 
-{% for gallery in site.data.galleries %}
-- [{{ gallery.description }}]({{ gallery.id }})
-{% endfor %}
+<ul>
+    {% for post in site.categories.gallery %}
+    <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>

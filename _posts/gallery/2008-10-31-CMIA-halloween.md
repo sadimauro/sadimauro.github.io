@@ -15,11 +15,7 @@ categories:
 ---
 
 <ul class="clearing-thumbs small-block-grid-3" data-clearing>
-  <li><a href="{{ site.url }}/images/2008-10-31-CMIA-halloween/halloween1.tif"><img  data-caption="TODO" class="th" src="{{ site.url }}/images/2008-10-31-CMIA-halloween/halloween1_thumb.jpg"></a></li>
-  <li><a href="{{ site.url }}/images/2008-10-31-CMIA-halloween/halloween2.tif"><img  data-caption="TODO" class="th" src="{{ site.url }}/images/2008-10-31-CMIA-halloween/halloween2.tif"></a></li>
-  <li><a href="{{ site.url }}/images/unsplash_2.jpg"><img  data-caption="All images by Unsplash.com" class="th" src="{{ site.url }}/images/unsplash_2_thumb.jpg"></a></li>
-  <li><a href="{{ site.url }}/images/unsplash_3.jpg"><img  data-caption="All images by Unsplash.com" class="th" src="{{ site.url }}/images/unsplash_3_thumb.jpg"></a></li>
-  <li><a href="{{ site.url }}/images/unsplash_4.jpg"><img  data-caption="All images by Unsplash.com" class="th" src="{{ site.url }}/images/unsplash_4_thumb.jpg"></a></li>
-  <li><a href="{{ site.url }}/images/unsplash_5.jpg"><img  data-caption="All images by Unsplash.com" class="th" src="{{ site.url }}/images/unsplash_5_thumb.jpg"></a></li>
-  <li><a href="{{ site.url }}/images/unsplash_6.jpg"><img  data-caption="All images by Unsplash.com" class="th" src="{{ site.url }}/images/unsplash_6_bus_thumb.jpg"></a></li>
+{% for i in (1..13) %}
+  <li><a href="{{ site.url }}/images/2008-10-31-CMIA-halloween/{{ i }}.jpg"><img  data-caption="TODO" class="th" src="{{ site.url }}/images/2008-10-31-CMIA-halloween/{{ i }}_thumb.jpg"></a></li>
+{% endfor %}
 </ul>
