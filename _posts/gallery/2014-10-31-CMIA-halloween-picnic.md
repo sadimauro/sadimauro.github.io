@@ -1,7 +1,7 @@
 ---
 layout: page-fullwidth
 #subheadline:  "Templates"
-title:  "CMIA Halloween - 2008"
+title:  "Halloween Picnic - October 2014"
 #teaser: "Wanna create a responsive gallery to showcase your portfolio, recent photos or images? It's quite easy thanks to Foundation and <a href='http://foundation.zurb.com/docs/components/clearing.html'>Clearing Lightbox</a>."
 header:
    image: "various/sign1-crop-alternate-680x80.jpg"
@@ -14,8 +14,8 @@ categories:
 #   thumb: "unsplash_7_thumb.jpg"
 ---
 
-{% assign TOTAL_PICS_NO = 13 %}
-{% assign FOLDER_NAME = '2008-10-31-CMIA-halloween' %}
+{% assign TOTAL_PICS_NO = 20 %}
+{% assign FOLDER_NAME = '2014-10-31-CMIA-halloween-picnic' %}
 <ul class="clearing-thumbs small-block-grid-3" data-clearing>
 {% for i in (1..TOTAL_PICS_NO) %}
   <li><a href="{{ site.url }}/images/{{ FOLDER_NAME }}/{{ i }}.jpg"><img  data-caption="" class="th" src="{{ site.url }}/images/{{ FOLDER_NAME }}/{{ i }}_thumb.jpg"></a></li>
