@@ -19,15 +19,15 @@
   side: left
   dropdown:
   - title: "Newsletters"
-    url: "/resources/eagle-archive/"
+    url: "/eagle-archive/"
   - title: "Links"
-    url: "/resources/links/"
+    url: "/links/"
   - title: "By-Laws"
-    url: "/resources/by-laws/"
+    url: "/by-laws/"
   - title: "Constitution"
-    url: "/resources/constitution/"
+    url: "/constitution/"
   - title: "Pier Wait List"
-    url: "/resources/pier-wait-list/"
+    url: "/pier-wait-list/"
 
 - title: "FAQ"
   url: "/faq/"

@@ -1,8 +1,11 @@
 ---
-layout: page
-show_meta: false
-title: "Search"
+layout: page-fullwidth
+title: Search
+header:
+   image: "various/sign1-crop-alternate-680x80.jpg"
+   background-color:  "#ba8b3d"
 permalink: "/search/"
+show_meta: false
 ---
 
 {% include google_search.html %}
