@@ -1,17 +1,14 @@
 ---
 layout: page-fullwidth
-#subheadline:  "Templates"
+subheadline:  "Gallery"
 title:  "Holiday Decorating - 2014"
-#teaser: "Wanna create a responsive gallery to showcase your portfolio, recent photos or images? It's quite easy thanks to Foundation and <a href='http://foundation.zurb.com/docs/components/clearing.html'>Clearing Lightbox</a>."
 header:
    image: "various/sign1-crop-alternate-680x80.jpg"
    background-color:  "#ba8b3d"
 categories:
     - gallery
-#tags:
-#    - post format
-#image:
-#   thumb: "unsplash_7_thumb.jpg"
+tags:
+    - 
 ---
 
 {% assign TOTAL_PICS_NO = 8 %}

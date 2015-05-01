@@ -7,6 +7,7 @@ header:
    image: "various/sign1-crop-alternate-680x80.jpg"
    background-color:  "#ba8b3d"
 permalink: "/pier-wait-list/"
+breadcrumb: false
 ---
 The wait list (with addresses and contact information omitted) is <a href="/resources/pier-wait-list/pierWaitList_2015-02-25.xls">here</a>.  
 

@@ -7,6 +7,7 @@ header:
    image: "various/sign1-crop-alternate-680x80.jpg"
    background-color:  "#ba8b3d"
 permalink: "/by-laws/"
+breadcrumb: false
 ---
 
 Click <a href="/resources/by-laws/CMIA_bylaws_2014-08-31.pdf">here</a> for a printable version.

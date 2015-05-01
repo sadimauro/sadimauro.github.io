@@ -5,13 +5,18 @@
 - title: About
   url: "/about/"
   side: left
-  
-- title: CMIA
-  url: "/cmia/"
-  side: left
+  dropdown:
+  - title: Community
+    url: "/about/"
+  - title: Association
+    url: "/cmia/"  
 
 - title: Gallery
   url: "/gallery/"
+  side: left
+  
+- title: Posts
+  url: "/posts-archive/"
   side: left
   
 - title: "Resources"
@@ -28,11 +33,13 @@
     url: "/constitution/"
   - title: "Pier Wait List"
     url: "/pier-wait-list/"
-
-- title: "FAQ"
-  url: "/faq/"
-  side: left
-
+  - title: "FAQ"
+    url: "/faq/"
+    
+- title: "Search"
+  url: "/search/"
+  side: right
+  
 - title: "Contact"
   url: "/contact/"
   side: right

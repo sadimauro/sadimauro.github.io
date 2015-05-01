@@ -7,6 +7,7 @@ header:
    image: "various/sign1-crop-alternate-680x80.jpg"
    background-color:  "#ba8b3d"
 permalink: "/resources/"
+breadcrumb: false
 ---
 <a href="/eagle-archive/">Archive of The Eagle</a>, Carrollton Manor's community newsletter
 
