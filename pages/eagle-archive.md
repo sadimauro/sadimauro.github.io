@@ -16,6 +16,6 @@ breadcrumb: false
 {% for yr in years %}
 ## {{ yr }} 
 {% for season in seasons %}
-<a href="/eagle-archive/eagle-{{ yr }}-{{ season }}.pdf">{{ season | capitalize }}</a>
+<a href="/resources/eagle-archive/eagle-{{ yr }}-{{ season }}.pdf">{{ season | capitalize }}</a>
 {% endfor %}
 {% endfor %}

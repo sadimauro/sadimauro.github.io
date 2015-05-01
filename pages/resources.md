@@ -1,7 +1,6 @@
 ---
 layout: page-fullwidth
 title: Resources
-#subheadline: "TODO"
 description: "Various resources for community members"
 header:
    image: "various/sign1-crop-alternate-680x80.jpg"
@@ -18,3 +17,5 @@ breadcrumb: false
 <a href="/constitution/">Constitution</a>
 
 <a href="/pier-wait-list/">Pier wait list</a>
+
+Also see our <a href="/faq/">frequently asked questions page</a>, or <a href="/search/">search the site</a>.
