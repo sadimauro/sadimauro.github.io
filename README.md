@@ -6,11 +6,11 @@
 4. Create a new document (look for the plus sign) in carrolltonmanor.github.io/_posts/news/; use this format for the file name:
 
     YYYY-MM-DD-title-of-article.md
-    
+
 For example:
 
     2015-01-02-community-yard-sale.md
-    
+
 5. Paste the copied text into that new file
 6. Add contents for the news post below the last "---"; see this cheatsheet for syntax help:  https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet 
 
