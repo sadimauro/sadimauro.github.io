@@ -12,6 +12,7 @@ categories:
 tags:
     - 
 show_meta: true
+breadcrumb: true
 ---
 
 Mark your calendar for the following upcoming community events.

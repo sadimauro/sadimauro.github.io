@@ -12,6 +12,7 @@ categories:
 tags:
     - 
 show_meta: true
+breadcrumb: true
 ---
 
 Pictures from the picnic will be posted soon!  

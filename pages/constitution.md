@@ -6,8 +6,8 @@ description: "Constitution"
 header:
    image: "various/sign1-crop-alternate-680x80.jpg"
    background-color:  "#ba8b3d"
-permalink: "/constitution/"
-breadcrumb: false
+permalink: "/resources/constitution/"
+breadcrumb: true
 ---
 
 Click <a href="/resources/constitution/CMIA_constitution_2014-08-31.pdf">here</a> for a printable version.

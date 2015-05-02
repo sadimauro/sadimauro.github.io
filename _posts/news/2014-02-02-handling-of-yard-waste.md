@@ -12,6 +12,7 @@ categories:
 tags:
     - 
 show_meta: true
+breadcrumb: true
 ---
 
 With that

@@ -24,7 +24,7 @@ widget-2:
     image: various/HillBottom-Cove-in-fog.jpg
 widget-3:
     title: "Resources"
-    url: "/resource/"
+    url: "/resources/"
     text: "This site contain multiple resources for Carrollton Manor residents, including web links, official community documents, and digital copies of <em>The Eagle</em>, CM's quarterly newsletter."
     image: 2014-06-01-around-CM/5.jpg
 ---

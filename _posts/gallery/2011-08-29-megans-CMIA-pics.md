@@ -10,6 +10,7 @@ categories:
 tags:
     - 
 show_meta: true
+breadcrumb: true
 ---
 
 {% assign TOTAL_PICS_NO = 25 %}

@@ -7,7 +7,7 @@ header:
    image: "various/sign1-crop-alternate-680x80.jpg"
    background-color:  "#ba8b3d"
 permalink: "/contact/"
-breadcrumb: false
+breadcrumb: true
 ---
 
 For more information about the Community or the <a href="/cmia">CMIA</a>, contact the following folks:

@@ -15,8 +15,8 @@
   url: "/gallery/"
   side: left
   
-- title: Posts
-  url: "/posts-archive/"
+- title: News
+  url: "/news/"
   side: left
   
 - title: "Resources"
@@ -24,17 +24,17 @@
   side: left
   dropdown:
   - title: "Newsletters"
-    url: "/eagle-archive/"
+    url: "/resources/eagle-archive/"
   - title: "Links"
-    url: "/links/"
+    url: "/resources/links/"
   - title: "By-Laws"
-    url: "/by-laws/"
+    url: "/resources/by-laws/"
   - title: "Constitution"
-    url: "/constitution/"
+    url: "/resources/constitution/"
   - title: "Pier Wait List"
-    url: "/pier-wait-list/"
+    url: "/resources/pier-wait-list/"
  # - title: "FAQ"
- #   url: "/faq/"
+ #   url: "/resources/faq/"
     
 - title: "Search"
   url: "/search/"

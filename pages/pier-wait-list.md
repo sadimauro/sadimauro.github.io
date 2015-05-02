@@ -6,8 +6,8 @@ description: "Wait list for Hillbottom Beach's pier"
 header:
    image: "various/sign1-crop-alternate-680x80.jpg"
    background-color:  "#ba8b3d"
-permalink: "/pier-wait-list/"
-breadcrumb: false
+permalink: "/resources/pier-wait-list/"
+breadcrumb: true
 ---
 The wait list (with addresses and contact information omitted) is <a href="/resources/pier-wait-list/pierWaitList_2015-02-25.xls">here</a>.  
 

@@ -8,8 +8,9 @@ header:
 categories:
     - gallery
 tags:
-    - one two
+    - 
 show_meta: true
+breadcrumb: true
 ---
 
 {% assign TOTAL_PICS_NO = 13 %}

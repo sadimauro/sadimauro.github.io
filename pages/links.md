@@ -6,8 +6,8 @@ description: "Community Links"
 header:
    image: "various/sign1-crop-alternate-680x80.jpg"
    background-color:  "#ba8b3d"
-permalink: "/links/"
-breadcrumb: false
+permalink: "/resources/links/"
+breadcrumb: true
 ---
 
 ## Anne Arundel County

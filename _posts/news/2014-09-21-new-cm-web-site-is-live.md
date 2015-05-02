@@ -11,6 +11,7 @@ categories:
 tags:
     - 
 show_meta: true
+breadcrumb: true
 ---
 
 If you're reading this, you've arrived at the new Carrollton Manor website!
