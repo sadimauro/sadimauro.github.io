@@ -4,9 +4,13 @@
 2. Click Sign In; username:  carrolltonmanor; password = Hillb0tt0mBeach
 3. Navigate to carrolltonmanor.github.io/_drafts/YYYY-MM-DD-news-post.md; select-all and copy the text
 4. Create a new document (look for the plus sign) in carrolltonmanor.github.io/_posts/news/; use this format for the file name:
+
     YYYY-MM-DD-title-of-article.md
+    
 For example:
+
     2015-01-02-community-yard-sale.md
+    
 5. Paste the copied text into that new file
 6. Add contents for the news post below the last "---"; see this cheatsheet for syntax help:  https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet 
 
@@ -16,13 +20,11 @@ See https://help.github.com/articles/using-jekyll-with-pages for more on using J
 
 Execute
 	
-	bundle exec jekyll serve
+    bundle exec jekyll serve
 
-in the root directory to build and serve the page.
+in the root directory to build and serve the page.  Use
 
-Use
-
-	bundle update
+    bundle update
 	
 in the root directory to update jekyll dependencies
 
@@ -30,21 +32,21 @@ in the root directory to update jekyll dependencies
 
 ## Using ImageMagick to convert an image to another format:
 
-	convert file.tif file.jpg
+    convert file.tif file.jpg
 
 ## Using ImageMagick to resize a file (for e.g. creating thumbnails):
 
-	convert -resize x100 file.jpg file_thumb.jpg
+    convert -resize x100 file.jpg file_thumb.jpg
 
 ## Examples
 
-	rename "s/ /-/" *
+    rename "s/ /-/" *
    
-   	for fn in `ls -1 *tif`; do pref=`echo $fn | awk 'BEGIN {FS="."};{print $1}'`; convert $pref.tif $pref.jpg; done
+    for fn in `ls -1 *tif`; do pref=`echo $fn | awk 'BEGIN {FS="."};{print $1}'`; convert $pref.tif $pref.jpg; done
 
-	for fn in `ls -1 *jpg`; do pref=`echo $fn | awk 'BEGIN {FS="."};{print $1}'`; convert -resize x100 ${pref}.jpg ${pref}_thumb.jpg; done
+    for fn in `ls -1 *jpg`; do pref=`echo $fn | awk 'BEGIN {FS="."};{print $1}'`; convert -resize x100 ${pref}.jpg ${pref}_thumb.jpg; done
 
-	for fn in `ls -1 halloween*.jpg`; do echo $fn; mv $fn ${fn//halloween/2008-10-31-CMIA-halloween_}; done
+    for fn in `ls -1 halloween*.jpg`; do echo $fn; mv $fn ${fn//halloween/2008-10-31-CMIA-halloween_}; done
 
 # About the "Feeling Responsive" Theme
 
