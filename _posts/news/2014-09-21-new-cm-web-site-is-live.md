@@ -10,6 +10,7 @@ categories:
     - news
 tags:
     - 
+show_meta: true
 ---
 
 If you're reading this, you've arrived at the new Carrollton Manor website!

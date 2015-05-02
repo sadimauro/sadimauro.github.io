@@ -11,6 +11,7 @@ categories:
     - news
 tags:
     - 
+show_meta: true
 ---
 
 Please look inside the Spring 2014 issue of the Eagle for some important community announcements. 

@@ -9,6 +9,7 @@ categories:
     - gallery
 tags:
     - one two
+show_meta: true
 ---
 
 {% assign TOTAL_PICS_NO = 13 %}

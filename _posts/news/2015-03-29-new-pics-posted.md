@@ -10,6 +10,7 @@ categories:
     - news
 tags:
     - 
+show_meta: true
 ---
 
 I've posted some recent (and no-so-recent!) Carrollton Manor pics to the gallery.

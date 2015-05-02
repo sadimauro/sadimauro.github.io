@@ -11,6 +11,7 @@ categories:
     - news
 tags:
     - 
+show_meta: true
 ---
 
 Pictures from the picnic will be posted soon!  

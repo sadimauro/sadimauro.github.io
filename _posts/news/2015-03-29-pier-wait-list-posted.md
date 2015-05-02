@@ -10,6 +10,7 @@ categories:
     - news
 tags:
     - 
+show_meta: true
 ---
 
 The current (as of February 2015) pier wait list has been posted to our resources page.  Look to that page in the future for updated versions.
