@@ -1,15 +1,43 @@
+# Using Jekyll with Pages
+
+See https://help.github.com/articles/using-jekyll-with-pages for more on using Jekyll with github-pages.  Notably:
+
+Execute
+	bundle exec jekyll serve
+in the root directory to build and serve the page.
+
+Use
+	bundle update
+in the root directory to update jekyll dependencies
+
+# Preparing Images
+
+## Using ImageMagick to convert an image to another format:
+	convert file.tif file.jpg
+
+## Using ImageMagick to resize a file (for e.g. creating thumbnails):
+	convert -resize x100 file.jpg file_thumb.jpg
+
+## Examples
+	rename "s/ /-/" *
+   
+   	for fn in `ls -1 *tif`; do pref=`echo $fn | awk 'BEGIN {FS="."};{print $1}'`; convert $pref.tif $pref.jpg; done
+
+	for fn in `ls -1 *jpg`; do pref=`echo $fn | awk 'BEGIN {FS="."};{print $1}'`; convert -resize x100 ${pref}.jpg ${pref}_thumb.jpg; done
+
+	for fn in `ls -1 halloween*.jpg`; do echo $fn; mv $fn ${fn//halloween/2008-10-31-CMIA-halloween_}; done
+
+# About the "Feeling Responsive" Theme
 
 [![Start Video](https://github.com/Phlow/feeling-responsive/blob/gh-pages/images/video-feeling-responsive-1280x720.jpg)](https://www.youtube.com/embed/3b5zCFSmVvU)
 
 ## A Responsive Jekyll Theme: *Feeling Responsive*
 
-Do you want to get to know *Feeling Responsive*? Than check it out first and have a look on its home at  <http://phlow.github.io/feeling-responsive/>.
+http://phlow.github.io/feeling-responsive
 
 To get to know *Feeling Responsive* check out all the features explained in the [documentation][1].
 
 And what license is *Feeling Responsive* released under? [This one][2].
-
-
 
 ## Why use this theme?
 
@@ -23,19 +51,11 @@ Feeling Responsive is heavily customizable.
 
 **[More ›][3]**
 
-
-
 ## Video Tutorial
 
 Click the image to [watch the YouTube-Video-Tutorial][4].
 
 [![Start Video](https://github.com/Phlow/feeling-responsive/blob/gh-pages/images/video-feeling-responsive-tutorial-frontpage.jpg)](https://www.youtube.com/watch?v=rLS-BEvlEyY)
-
-
-
-
-
-
 
 
  [1]: http://phlow.github.io/feeling-responsive/documentation/
