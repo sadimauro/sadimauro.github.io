@@ -8,7 +8,7 @@ header:
 categories:
     - gallery
 tags:
-    - 
+    - one two
 ---
 
 {% assign TOTAL_PICS_NO = 13 %}

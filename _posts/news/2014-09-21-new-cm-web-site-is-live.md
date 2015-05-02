@@ -5,9 +5,7 @@ title: The new Carrollton Manor website is live!
 header:
    image: "various/sign1-crop-alternate-680x80.jpg"
    background-color:  "#ba8b3d"
-author:
-  name: Steve DiMauro
-  bio: CM resident
+author: sdimauro
 categories:
     - news
 tags:

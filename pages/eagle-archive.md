@@ -10,12 +10,10 @@ permalink: "/eagle-archive/"
 breadcrumb: false
 ---
 
-{% assign seasons = "spring|summer|fall|winter" | split: "|" %}
-{% assign years = "2015|2014|2013|2012|2011|2010|2009|2008|2007|2006|2005|2004|2003|2002|2001" | split: "|" %}
+{% assign years = "2014|2013|2012|2011|2010|2009|2008|2007|2006|2005|2004|2003|2002|2001" | split: "|" %}
+{% assign thisYear = "2015" %}
 
+{{ thisYear }}:  <a href="/resources/eagle-archive/eagle-{{ thisYear }}-spring.pdf">Spring</a> / Summer / Fall / Winter
 {% for yr in years %}
-## {{ yr }} 
-{% for season in seasons %}
-<a href="/resources/eagle-archive/eagle-{{ yr }}-{{ season }}.pdf">{{ season | capitalize }}</a>
-{% endfor %}
+{{ yr }}:  <a href="/resources/eagle-archive/eagle-{{ yr }}-spring.pdf">Spring</a> / <a href="/resources/eagle-archive/eagle-{{ yr }}-summer.pdf">Summer</a> / <a href="/resources/eagle-archive/eagle-{{ yr }}-fall.pdf">Fall</a> / <a href="/resources/eagle-archive/eagle-{{ yr }}-winter.pdf">Winter</a>
 {% endfor %}

@@ -25,7 +25,7 @@ image:
     thumb:
     caption:
     caption_url:
-show_meta: false
+show_meta: true
 sidebar: left
 comments: true
 breadcrumb: true

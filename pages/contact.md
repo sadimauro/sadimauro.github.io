@@ -20,3 +20,6 @@ For more information about the Community or the <a href="/cmia">CMIA</a>, contac
   {{ site.data.people | map: person.id | map: 'name'}} ({{ person.title }}):  {{ this_phone }} / {{ this_email }}
   
 {% endfor %}
+
+
+For suggestions on improving this site, <a href="mailto:carrolltonmanorweb@gmail.com">email us</a>.

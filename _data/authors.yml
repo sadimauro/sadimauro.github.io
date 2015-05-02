@@ -4,6 +4,9 @@
 # 2. Change author in default settings in config.yml
 #
 # Ressource › http://blog.sorryapp.com/blogging-with-jekyll/2014/02/06/adding-authors-to-your-jekyll-site.html
-your_author_name:
+sdimauro:
     name: "Steve DiMauro"
     #url: http://mo.phlow.de/
+
+lbender:
+    name: "Lisa Bender"

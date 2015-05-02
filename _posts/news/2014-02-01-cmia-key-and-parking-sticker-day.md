@@ -5,9 +5,7 @@ title: CMIA Key and Parking Sticker Day
 header:
    image: "various/sign1-crop-alternate-680x80.jpg"
    background-color:  "#ba8b3d"
-author:
-  name: Lisa Bender
-  bio: President, CMIA
+author: lbender
 categories:
     - news
 tags:
