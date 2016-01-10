@@ -67,7 +67,6 @@ exclude:
     - Gemfile.lock
     - LICENSE
     - README.md
-    - README-Steve.md
 
 
 #
