@@ -5,13 +5,12 @@
 # this work, you have to use › layout: frontpage
 #
 layout: frontpage
-title: "Carrollton Manor - Severna Park, MD"
+title: "Carrollton Manor - Severna Park, MD, USA"
 header:
-   image: "various/sign1-crop-alternate-680x80.jpg"
-   background-color:  "#ba8b3d"
-   # f0f0f0
-   caption:  About Carrollton Manor
-   caption_url:  "/about/"
+    # note:  base dir for this image must be images/.
+    image_fullwidth: "2014-06-01-around-CM/5_1600x800.jpg"
+    #caption: This is a sample caption
+    #caption_url: http://0.0.0.0:4000 
 widget-1:
     title: "About"
     url: "/about/"
@@ -26,5 +25,5 @@ widget-3:
     title: "Resources"
     url: "/resources/"
     text: "This site contain multiple resources for Carrollton Manor residents, including web links, official community documents, and digital copies of <em>The Eagle</em>, CM's quarterly newsletter."
-    image: 2014-06-01-around-CM/5.jpg
+    image: various/pier3.jpg
 ---

@@ -5,7 +5,7 @@ title: Contact Us
 description: "Contact Us"
 header:
    image: "various/sign1-crop-alternate-680x80.jpg"
-   background-color:  "#ba8b3d"
+   background-color:  "#ffe6b3"
 permalink: "/contact/"
 breadcrumb: true
 ---

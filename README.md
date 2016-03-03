@@ -26,7 +26,7 @@ in the root directory to build and serve the page.  Use
 
     bundle update
 	
-in the root directory to update jekyll dependencies
+in the root directory to update jekyll dependencies.
 
 # Preparing Images
 

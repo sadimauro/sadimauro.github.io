@@ -3,7 +3,7 @@ layout: page-fullwidth
 title: Search
 header:
    image: "various/sign1-crop-alternate-680x80.jpg"
-   background-color:  "#ba8b3d"
+   background-color:  "#ffe6b3"
 permalink: "/search/"
 show_meta: false
 ---
