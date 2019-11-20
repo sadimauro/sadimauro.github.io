@@ -16,19 +16,19 @@ slogan: "A Severna Park, Maryland, USA Community"
 
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: "»Carrollton Manor.us« is the official website for the Severna Park, MD, USA community.  For suggestions on improving this site, <a href=\"mailto:carrolltonmanorweb@gmail.com\">email the webmaster</a>."
+description: "»Carrollton Manor.us« is the official website for the Severna Park, MD, USA community.  For suggestions on improving this site, <a href=\"mailto:sadimauroweb@gmail.com\">email the webmaster</a>."
 
 
 # This URL is the main adresse. Don't include a slash at the end.
 #
-#url: "http://carrolltonmanor.github.io"
-url: "http://carrolltonmanor.us"
+#url: "http://sadimauro.github.io"
+url: "http://sadimauro.us"
 #url: "http://localhost:4000"
 baseurl: ""
 
 # This is for the editing function in _/includes/improve_content.html
 # Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: https://github.com/carrolltonmanor/carrolltonmanor.github.io/edit
+improve_content: https://github.com/sadimauro/sadimauro.github.io/edit
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash.
@@ -36,8 +36,8 @@ improve_content: https://github.com/carrolltonmanor/carrolltonmanor.github.io/ed
 # Example: <img src="{{ site.urlimg }}/{{ post.image.title }}">
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}/image.jpg)
 #
-#urlimg: "http://carrolltonmanor.com/images"
-urlimg: "http://carrolltonmanor.github.io/images"
+#urlimg: "http://sadimauro.com/images"
+urlimg: "http://sadimauro.github.io/images"
 
 # Logo size is 600x80 pixels
 # (This is the text-based logo)
@@ -182,7 +182,7 @@ msapplication_tilecolor:                "#fabb00"
 #
 # used in _includes/comments.html
 
-disqus_shortname: carrolltonmanor
+disqus_shortname: sadimauro
 
 
 #      _____                
