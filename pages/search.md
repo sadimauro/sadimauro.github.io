@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: Search
 header:
-   image: "various/sign1-crop-alternate-680x80.jpg"
+   image: "2014-06-01-around-CM/4_1600x315.jpg"
    background-color:  "#fafafa"
 permalink: "/search/"
 show_meta: false

@@ -3,7 +3,7 @@ layout: page-fullwidth
 title: Resources
 description: "Various resources for community members"
 header:
-   image: "various/sign1-crop-alternate-680x80.jpg"
+   image: "2014-06-01-around-CM/4_1600x315.jpg"
    background-color:  "#fafafa"
 permalink: "/resources/"
 breadcrumb: true
