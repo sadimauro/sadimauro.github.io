@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: Search
 header:
-   image: "2014-06-01-around-CM/4_1600x315.jpg"
+   image: "header_image_alt.jpg"
    background-color:  "#fafafa"
 permalink: "/search/"
 show_meta: false

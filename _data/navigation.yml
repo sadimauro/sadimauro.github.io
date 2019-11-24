@@ -19,6 +19,10 @@
   #url: "http://carrolltonmanorblog.wordpress.com/"
   #side: left
   
+- title: Gallery
+  url: "/gallery/"
+  side: left
+   
 - title: "Resources"
   url: "/resources/"
   side: left
@@ -34,10 +38,6 @@
   - title: "Pier Wait List"
     url: "/resources/pier-wait-list/"
 
-- title: Gallery
-  url: "/gallery/"
-  side: left
-   
 - title: "Search"
   url: "/search/"
   side: right

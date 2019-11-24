@@ -4,7 +4,7 @@ title: Eagle Archive
 #subheadline: "TODO"
 description: "Past issues of The Eagle, the quarterly Carrollton Manor newsletter"
 header:
-   image: "2014-06-01-around-CM/4_1600x315.jpg"
+   image: "header_image_alt.jpg"
    background-color:  "#fafafa"
 permalink: "/resources/eagle-archive/"
 breadcrumb: true

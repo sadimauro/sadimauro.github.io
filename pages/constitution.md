@@ -4,7 +4,7 @@ title: Constitution
 #subheadline: "TODO"
 description: "Constitution"
 header:
-   image: "2014-06-01-around-CM/4_1600x315.jpg"
+   image: "header_image_alt.jpg"
    background-color:  "#fafafa"
 permalink: "/resources/constitution/"
 breadcrumb: true

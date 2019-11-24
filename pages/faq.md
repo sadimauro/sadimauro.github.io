@@ -2,12 +2,16 @@
 layout: page-fullwidth
 title: Frequently Asked Questions
 #subheadline: "TODO"
-description: "FAQ"
+description: "Frequently asked questions"
 header:
-   image: "2014-06-01-around-CM/4_1600x315.jpg"
+   image: "header_image_alt.jpg"
    background-color:  "#fafafa"
 permalink: "/faq/"
 breadcrumb: true
 ---
 
-To fill in!
+<ul>
+    {% for post in site.categories.faq %}
+    <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
